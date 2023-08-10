@@ -1,0 +1,39 @@
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+background-color: #1d1d1d;
+color: #ffffff;
+margin: 0;
+}
+
+.box {
+max-width: 600px;
+margin: 0 auto 50px auto;
+padding: 40px;
+background-color: #373636;
+border-radius: 2%;
+}
+
+.head-word{
+    font-size: 34px;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+}
+
+button {
+padding: 10px 20px;
+background-color: #979ea4;
+color: #ffffff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 18px;
+transition: background-color 0.3s ease;
+}
+
+button:hover {
+background-color: #465c75;
+}
+

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ahmed Sobhy</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Dev Ahmed</a>
+        <nav class="navigation">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li class="dropdown">
+                <a href="#services">Services</a>
+                <div class="dropdown-content">
+                  <a href="#">Web Design</a>
+                  <a href="#">DataBase System</a>
+                  <a href="#">Security</a>
+                </div>
+              </li>
+              <li><a href="#about-section">About</a></li>
+              <li><a href="#contacts-section">Contact</a></li>
+            </ul>
+          </nav>
+      </header>
+    <!-- home  -->
+    <section class=" home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Ahmed Sobhy</div>
+                <div class="text-3">and i'm a <span>Web Developer</span></div>
+                <a href="#contacts-section" class="main-btn">Hire Me</a>
+                <div class="socialmedia">
+                    <a href="https://wa.me/0000000000" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://github.com/AhmedSobhyToR" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ahmed-sobhy-38709a278/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Services -->
+
+    <section class="cards" id="services">
+        <div class="text-1" id="service">Services</div>
+
+        <div class="services-content">
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-paintbrush"></i></div>
+                <div>Web Design</div>
+                <p class="pcards">Designing your own professional website using modern design</p>
+            </div>
+
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-database"></i></div>
+                <div>DataBase System</div>
+                <p class="pcards">Designing a database system for your own company</p>
+            </div>
+
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-lock-open"></i></div>
+                <div>Security</div>
+                <p class="pcards">Creating a security system for your company to protect customers data</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="about" id="about-section">
+
+        <div class="text-1" id="service">About Me</div>
+        <div class="about-content">
+            <!-- Left content -->
+            <div class="left-about">
+                <img src="images/about.jpg" alt="" id="aboutimg">
+            </div>
+            <!-- Right Content -->
+            <div class="right-about">
+                <div class="about-text">
+                    <p>I'm Ahmed and i'm a <span>Web Developer</span></p>
+                    <p>I'm at third year of computer science college</p>
+                    <p>I'm expert at making websites</p>
+                    <p>If you're interested you can check out my CV</p>
+                    <a href="AhmedSobhy_CV.pdf" target="_blank" id="CV">Download CV</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+        <section class="contact-section" id="contacts-section">
+            <div class="container">
+              <h2>Contact</h2>
+              <form>
+                <input type="text" id="YourName" placeholder="Your Name">
+                <input type="email" id="YourEmail" placeholder="Your Email">
+                <textarea id="YourMessage"  placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+              </form>
+            </div>
+          </section>
+        
+          <script src="index.js"></script>
+
+</body>
+
+</html>
